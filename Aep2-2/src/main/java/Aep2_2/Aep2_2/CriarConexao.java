@@ -8,9 +8,7 @@ public class CriarConexao {
 	private CriarConexao(){
 		
 	}
-
 	public static Connection conexao() throws Exception {
-
 		Connection conn = DriverManager.getConnection(
 				"jdbc:postgresql://localhost:5432/3esoft2019",
 				"postgres",
